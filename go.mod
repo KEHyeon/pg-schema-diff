@@ -1,4 +1,4 @@
-module github.com/siaa/pg-schema-diff
+module github.com/KEHyeon/pg-schema-diff
 
 go 1.20
 
