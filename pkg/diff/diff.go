@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/stripe/pg-schema-diff/internal/graph"
-	"github.com/stripe/pg-schema-diff/internal/schema"
+	"github.com/KEHyeon/pg-schema-diff/internal/graph"
+	"github.com/KEHyeon/pg-schema-diff/internal/schema"
 )
 
 var ErrNotImplemented = fmt.Errorf("not implemented")

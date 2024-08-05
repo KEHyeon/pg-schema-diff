@@ -1,7 +1,7 @@
 # pg-schema-diff
-[![run_tests](https://github.com/stripe/pg-schema-diff/actions/workflows/run-tests.yaml/badge.svg)](https://github.com/stripe/pg-schema-diff/actions/workflows/run-tests.yaml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/stripe/pg-schema-diff)](https://goreportcard.com/report/github.com/stripe/pg-schema-diff)
-[![Go Reference](https://pkg.go.dev/badge/github.com/stripe/pg-schema-diff.svg)](https://pkg.go.dev/github.com/stripe/pg-schema-diff)
+[![run_tests](https://github.com/KEHyeon/pg-schema-diff/actions/workflows/run-tests.yaml/badge.svg)](https://github.com/KEHyeon/pg-schema-diff/actions/workflows/run-tests.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KEHyeon/pg-schema-diff)](https://goreportcard.com/report/github.com/KEHyeon/pg-schema-diff)
+[![Go Reference](https://pkg.go.dev/badge/github.com/KEHyeon/pg-schema-diff.svg)](https://pkg.go.dev/github.com/KEHyeon/pg-schema-diff)
 ![GitHub Release](https://img.shields.io/github/v/release/stripe/pg-schema-diff?include_prereleases)
 
 Computes the diff(erences) between Postgres database schemas and generates the SQL required to get your database schema from point A to B with 
@@ -91,12 +91,12 @@ $ pg-schema-diff plan --dsn "postgres://postgres:postgres@localhost:5432/postgre
 # Install
 ## CLI
 ```bash
-go install github.com/stripe/pg-schema-diff/cmd/pg-schema-diff
+go install github.com/KEHyeon/pg-schema-diff/cmd/pg-schema-diff
 ```
 
 ## Library
 ```bash
-go get -u github.com/stripe/pg-schema-diff
+go get -u github.com/KEHyeon/pg-schema-diff
 ```
 # Using CLI
 ## 1. Apply schema to fresh database
@@ -125,7 +125,7 @@ pg-schema-diff apply --dsn "postgres://postgres:postgres@localhost:5432/postgres
 ```
 
 # Using Library
-Docs to use the library can be found [here](https://pkg.go.dev/github.com/stripe/pg-schema-diff). Check out [the CLI](https://github.com/stripe/pg-schema-diff/tree/main/cmd/pg-schema-diff)
+Docs to use the library can be found [here](https://pkg.go.dev/github.com/KEHyeon/pg-schema-diff). Check out [the CLI](https://github.com/KEHyeon/pg-schema-diff/tree/main/cmd/pg-schema-diff)
 for an example implementation with the library
 
 ## 1. Generating plan

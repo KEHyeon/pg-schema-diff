@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/KEHyeon/pg-schema-diff/pkg/diff"
+	"github.com/KEHyeon/pg-schema-diff/pkg/log"
+	"github.com/KEHyeon/pg-schema-diff/pkg/tempdb"
 	"github.com/jackc/pgx/v4"
 	"github.com/spf13/cobra"
-	"github.com/stripe/pg-schema-diff/pkg/diff"
-	"github.com/stripe/pg-schema-diff/pkg/log"
-	"github.com/stripe/pg-schema-diff/pkg/tempdb"
 )
 
 const (

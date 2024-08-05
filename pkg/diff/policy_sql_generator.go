@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/KEHyeon/pg-schema-diff/internal/schema"
 	"github.com/google/go-cmp/cmp"
-	"github.com/stripe/pg-schema-diff/internal/schema"
 )
 
 var (

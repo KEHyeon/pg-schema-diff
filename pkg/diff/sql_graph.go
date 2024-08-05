@@ -3,8 +3,8 @@ package diff
 import (
 	"fmt"
 
-	"github.com/stripe/pg-schema-diff/internal/graph"
-	"github.com/stripe/pg-schema-diff/internal/schema"
+	"github.com/KEHyeon/pg-schema-diff/internal/graph"
+	"github.com/KEHyeon/pg-schema-diff/internal/schema"
 )
 
 type sqlVertex struct {
